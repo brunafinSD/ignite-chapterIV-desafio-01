@@ -61,7 +61,7 @@ export function Slide() {
               justifyContent="center"
               alignItems="center"
             >
-              <Link href='/' passHref>
+              <Link href='/europa' passHref>
                 <Text
                   fontSize={48}
                   color="gray.50"
@@ -94,7 +94,7 @@ export function Slide() {
               justifyContent="center"
               alignItems="center"
             >
-              <Link href='/' passHref>
+              <Link href='/america-do-sul' passHref>
                 <Text
                   fontSize={48}
                   color="gray.50"
@@ -127,7 +127,7 @@ export function Slide() {
               justifyContent="center"
               alignItems="center"
             >
-              <Link href='/' passHref>
+              <Link href='/america-do-norte' passHref>
               <Text
                 fontSize={48}
                 color="gray.50"
@@ -160,7 +160,7 @@ export function Slide() {
               justifyContent="center"
               alignItems="center"
             >
-              <Link href='/' passHref>
+              <Link href='/asia' passHref>
               <Text
                 fontSize={48}
                 color="gray.50"
@@ -193,7 +193,7 @@ export function Slide() {
               justifyContent="center"
               alignItems="center"
             >
-              <Link href='/' passHref>
+              <Link href='/africa' passHref>
               <Text
                 fontSize={48}
                 color="gray.50"
@@ -226,7 +226,7 @@ export function Slide() {
               justifyContent="center"
               alignItems="center"
             >
-              <Link href='/' passHref>
+              <Link href='/oceania' passHref>
               <Text
                 fontSize={48}
                 color="gray.50"
