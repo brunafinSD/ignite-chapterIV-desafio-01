@@ -12,7 +12,7 @@ export default function Europa() {
       if (item.continente === 'europa') {
         return item.cidades;
       }
-    })
+    }).filter((x) => x !== undefined);
     setCidades(europa);
   }, []);
 
