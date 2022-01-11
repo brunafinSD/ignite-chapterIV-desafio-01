@@ -4,7 +4,7 @@ import { Header } from "../components/Header";
 import { useEffect, useState } from "react";
 import { data } from "../api";
 
-export default function Oceania() {
+export default function AmericaDoSul() {
   const [cidades, setCidades] = useState([]);
   useEffect(() => {
     const dados = data();
