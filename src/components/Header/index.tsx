@@ -2,7 +2,7 @@ import { Flex, Image, Link } from '@chakra-ui/react';
 
 export function Header() {
   return (
-    <Link href='/' passHref>
+    <Link href='/'>
       <Flex
         as="header"
         maxWidth={1440}

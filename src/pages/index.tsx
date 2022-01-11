@@ -4,12 +4,12 @@ import { Slide } from '../components/Slide'
 import { WorldtripSection } from '../components/WorldtripSection'
 
 export default function Home() {
-  return(
+  return (
     <>
-     <Header />
-     <Banner />
-     <WorldtripSection />
-     <Slide />
+      <Header />
+      <Banner />
+      <WorldtripSection />
+      <Slide />
     </>
   )
 }

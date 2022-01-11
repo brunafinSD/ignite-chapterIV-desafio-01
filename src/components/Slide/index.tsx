@@ -61,7 +61,7 @@ export function Slide() {
               justifyContent="center"
               alignItems="center"
             >
-              <Link href='/europa' passHref>
+              <Link href='/europa'>
                 <Text
                   fontSize={48}
                   color="gray.50"
@@ -94,7 +94,7 @@ export function Slide() {
               justifyContent="center"
               alignItems="center"
             >
-              <Link href='/america-do-sul' passHref>
+              <Link href='/america-do-sul' >
                 <Text
                   fontSize={48}
                   color="gray.50"
@@ -127,23 +127,23 @@ export function Slide() {
               justifyContent="center"
               alignItems="center"
             >
-              <Link href='/america-do-norte' passHref>
-              <Text
-                fontSize={48}
-                color="gray.50"
-                fontWeight="500"
-                textAlign="center"
-              >
-                AMÉRICA DO NORTE
-              </Text>
-              <Text
-                fontSize={24}
-                color="gray.50"
-                fontWeight="500"
-                textAlign="center"
-              >
-                Se divirta em Las Vegas
-              </Text>
+              <Link href='/america-do-norte'>
+                <Text
+                  fontSize={48}
+                  color="gray.50"
+                  fontWeight="500"
+                  textAlign="center"
+                >
+                  AMÉRICA DO NORTE
+                </Text>
+                <Text
+                  fontSize={24}
+                  color="gray.50"
+                  fontWeight="500"
+                  textAlign="center"
+                >
+                  Se divirta em Las Vegas
+                </Text>
               </Link>
             </Box>
           </SwiperSlide>
@@ -160,23 +160,23 @@ export function Slide() {
               justifyContent="center"
               alignItems="center"
             >
-              <Link href='/asia' passHref>
-              <Text
-                fontSize={48}
-                color="gray.50"
-                fontWeight="500"
-                textAlign="center"
-              >
-                ÁSIA
-              </Text>
-              <Text
-                fontSize={24}
-                color="gray.50"
-                fontWeight="500"
-                textAlign="center"
-              >
-                Que tal férias em Dubai?
-              </Text>
+              <Link href='/asia' >
+                <Text
+                  fontSize={48}
+                  color="gray.50"
+                  fontWeight="500"
+                  textAlign="center"
+                >
+                  ÁSIA
+                </Text>
+                <Text
+                  fontSize={24}
+                  color="gray.50"
+                  fontWeight="500"
+                  textAlign="center"
+                >
+                  Que tal férias em Dubai?
+                </Text>
               </Link>
             </Box>
           </SwiperSlide>
@@ -193,23 +193,23 @@ export function Slide() {
               justifyContent="center"
               alignItems="center"
             >
-              <Link href='/africa' passHref>
-              <Text
-                fontSize={48}
-                color="gray.50"
-                fontWeight="500"
-                textAlign="center"
-              >
-                ÁFRICA
-              </Text>
-              <Text
-                fontSize={24}
-                color="gray.50"
-                fontWeight="500"
-                textAlign="center"
-              >
-                Explore a fauna da Savana
-              </Text>
+              <Link href='/africa' >
+                <Text
+                  fontSize={48}
+                  color="gray.50"
+                  fontWeight="500"
+                  textAlign="center"
+                >
+                  ÁFRICA
+                </Text>
+                <Text
+                  fontSize={24}
+                  color="gray.50"
+                  fontWeight="500"
+                  textAlign="center"
+                >
+                  Explore a fauna da Savana
+                </Text>
               </Link>
             </Box>
           </SwiperSlide>
@@ -226,23 +226,23 @@ export function Slide() {
               justifyContent="center"
               alignItems="center"
             >
-              <Link href='/oceania' passHref>
-              <Text
-                fontSize={48}
-                color="gray.50"
-                fontWeight="500"
-                textAlign="center"
-              >
-                OCEANIA
-              </Text>
-              <Text
-                fontSize={24}
-                color="gray.50"
-                fontWeight="500"
-                textAlign="center"
-              >
-                Formada por 20 mil ilhas
-              </Text>
+              <Link href='/oceania' >
+                <Text
+                  fontSize={48}
+                  color="gray.50"
+                  fontWeight="500"
+                  textAlign="center"
+                >
+                  OCEANIA
+                </Text>
+                <Text
+                  fontSize={24}
+                  color="gray.50"
+                  fontWeight="500"
+                  textAlign="center"
+                >
+                  Formada por 20 mil ilhas
+                </Text>
               </Link>
             </Box>
           </SwiperSlide>
