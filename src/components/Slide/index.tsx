@@ -17,27 +17,28 @@ export function Slide() {
       direction="column"
       maxWidth={1440}
       mx="auto"
-      mt="80px"
+      mt={["60px", "80px"]}
       mb="40px"
-      px="140"
+      px={["0", "140"]}
       bgPosition="center"
       bgRepeat="no-repeat"
     >
       <Text
-        fontSize={36}
+        fontSize={["20px", "36px"]}
         color="gray.300"
         fontWeight="500"
-        mt="132px"
+        mt={["0", "132px"]}
         textAlign="center"
         maxWidth={840}
         mx="auto"
       >
         Vamos nessa?
       </Text>
-      <Text fontSize={36}
+      <Text
+        fontSize={["20px", "36px"]}
         color="gray.300"
         fontWeight="500"
-        mb="52px"
+        mb={["20px", "52px"]}
         textAlign="center"
         maxWidth={840}
         mx="auto"> Então escolha seu continente</Text>
@@ -63,7 +64,7 @@ export function Slide() {
             >
               <Link href='/europa'>
                 <Text
-                  fontSize={48}
+                  fontSize={["24px", "48px"]}
                   color="gray.50"
                   fontWeight="500"
                   textAlign="center"
@@ -71,7 +72,7 @@ export function Slide() {
                   EUROPA
                 </Text>
                 <Text
-                  fontSize={24}
+                  fontSize={["14px", "24px"]}
                   color="gray.50"
                   fontWeight="500"
                   textAlign="center"
@@ -96,7 +97,7 @@ export function Slide() {
             >
               <Link href='/america-do-sul' >
                 <Text
-                  fontSize={48}
+                  fontSize={["24px", "48px"]}
                   color="gray.50"
                   fontWeight="500"
                   textAlign="center"
@@ -104,7 +105,7 @@ export function Slide() {
                   AMÉRICA DO SUL
                 </Text>
                 <Text
-                  fontSize={24}
+                  fontSize={["14px", "24px"]}
                   color="gray.50"
                   fontWeight="500"
                   textAlign="center"
@@ -129,7 +130,7 @@ export function Slide() {
             >
               <Link href='/america-do-norte'>
                 <Text
-                  fontSize={48}
+                  fontSize={["24px", "48px"]}
                   color="gray.50"
                   fontWeight="500"
                   textAlign="center"
@@ -137,7 +138,7 @@ export function Slide() {
                   AMÉRICA DO NORTE
                 </Text>
                 <Text
-                  fontSize={24}
+                  fontSize={["14px", "24px"]}
                   color="gray.50"
                   fontWeight="500"
                   textAlign="center"
@@ -162,7 +163,7 @@ export function Slide() {
             >
               <Link href='/asia' >
                 <Text
-                  fontSize={48}
+                  fontSize={["24px", "48px"]}
                   color="gray.50"
                   fontWeight="500"
                   textAlign="center"
@@ -170,7 +171,7 @@ export function Slide() {
                   ÁSIA
                 </Text>
                 <Text
-                  fontSize={24}
+                  fontSize={["14px", "24px"]}
                   color="gray.50"
                   fontWeight="500"
                   textAlign="center"
@@ -195,7 +196,7 @@ export function Slide() {
             >
               <Link href='/africa' >
                 <Text
-                  fontSize={48}
+                  fontSize={["24px", "48px"]}
                   color="gray.50"
                   fontWeight="500"
                   textAlign="center"
@@ -203,7 +204,7 @@ export function Slide() {
                   ÁFRICA
                 </Text>
                 <Text
-                  fontSize={24}
+                  fontSize={["14px", "24px"]}
                   color="gray.50"
                   fontWeight="500"
                   textAlign="center"
@@ -228,7 +229,7 @@ export function Slide() {
             >
               <Link href='/oceania' >
                 <Text
-                  fontSize={48}
+                  fontSize={["24px", "48px"]}
                   color="gray.50"
                   fontWeight="500"
                   textAlign="center"
@@ -236,7 +237,7 @@ export function Slide() {
                   OCEANIA
                 </Text>
                 <Text
-                  fontSize={24}
+                  fontSize={["14px", "24px"]}
                   color="gray.50"
                   fontWeight="500"
                   textAlign="center"

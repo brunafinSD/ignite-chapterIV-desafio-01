@@ -16,63 +16,65 @@ export default function Oceania() {
     setCidades(oceania);
   }, []);
 
-  console.log('cidades', cidades);
   return (
     <>
       <Header />
       <Flex
         display="flex"
         direction="column"
-        maxWidth={1440}
+        width={["400px", "1440px"]}
         mx="auto"
       >
         <Box
           bgImage="url('/images/bg-oceania.jpg')"
           bgRepeat="no-repeat"
-          width={1440}
-          height={500}
+          width="100%"
+          height={[150, 500]}
           mx="auto"
-          mb="80px"
+          mb={["0", "80px"]}
           display="flex"
-          justifyContent="flex-start"
-          alignItems="end"
-          px={140}
-          pb={16}
+          justifyContent={["center", "flex-start"]}
+          alignItems={["center", "end"]}
+          px={[0, 140]}
+          pb={[0, 16]}
         >
           <Text
-            fontSize={48}
+            fontSize={[28, 48]}
             color="#ffffff"
             fontWeight="500"
           >
-            Oceania
+           Oceania
           </Text>
         </Box>
 
         <Box
           display="flex"
           justifyContent="space-between"
-          px="140px"
+          px={["0", "140px"]}
+          m={["16px", "0"]}
+          flexWrap={["wrap", "nowrap"]}
         >
           <Text
-            fontSize={24}
+            fontSize={[14, 24]}
             color="gray.300"
             fontWeight="400"
             width={600}
             textAlign="justify"
           >
-            Oceania ou Oceânia é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico.
+           Oceania ou Oceânia é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico.
           </Text>
           <Box
             display="flex"
-            alignItems="center"
+            alignItems={"center"}
+            mt={[16, 0]}
           >
             <Box
               display="flex"
               flexDirection="column"
-              alignItems="center"
+              alignItems={["flex-start", "center"]}
             >
               <Text
-                fontSize={48}
+                fontSize={[24, 48]}
                 color="yellow.500"
                 fontWeight="600"
                 textAlign="justify"
@@ -80,7 +82,7 @@ export default function Oceania() {
                 14
               </Text>
               <Text
-                fontSize={24}
+                fontSize={[18, 24]}
                 color="gray.300"
                 fontWeight="600"
               >
@@ -90,11 +92,11 @@ export default function Oceania() {
             <Box
               display="flex"
               flexDirection="column"
-              alignItems="center"
+              alignItems={["flex-start", "center"]}
               ml="42px"
             >
               <Text
-                fontSize={48}
+                fontSize={[24, 48]}
                 color="yellow.500"
                 fontWeight="600"
                 textAlign="justify"
@@ -102,7 +104,7 @@ export default function Oceania() {
                 820
               </Text>
               <Text
-                fontSize={24}
+                fontSize={[18, 24]}
                 color="gray.300"
                 fontWeight="600"
               >
@@ -112,11 +114,11 @@ export default function Oceania() {
             <Box
               display="flex"
               flexDirection="column"
-              alignItems="center"
+              alignItems={["flex-start", "center"]}
               ml="42px"
             >
               <Text
-                fontSize={48}
+                fontSize={[24, 48]}
                 color="yellow.500"
                 fontWeight="600"
                 textAlign="justify"
@@ -125,7 +127,7 @@ export default function Oceania() {
               </Text>
               <Box>
                 <Text
-                  fontSize={24}
+                  fontSize={[18, 24]}
                   color="gray.300"
                   fontWeight="600"
                 >
@@ -136,7 +138,7 @@ export default function Oceania() {
                     bg='gray.300'
                     color='#ffffff'
                   >
-                    <InfoOutlineIcon color="gray.200" mx="8px" />
+                  <InfoOutlineIcon color="gray.200" mx={["4px", "8px"]} />
                   </Tooltip>
                 </Text>
               </Box>
@@ -145,20 +147,21 @@ export default function Oceania() {
         </Box>
 
         <Text
-          fontSize={36}
+          fontSize={[24, 36]}
           color="gray.300"
           fontWeight="500"
-          px="140px"
-          mt="80px"
+          px={["16px", "140px"]}
+          mt={["32px", "80px"]}
         >
           cidades +100
         </Text>
         <Flex
           display="flex"
           flexWrap="wrap"
-          px="140px"
-          mt="40px"
-          mb="35px"
+          px={["0", "140px"]}
+          mt={["20px", "40px"]}
+          mb={["0", "35px"]}
+          justifyContent={["center", "flex-start"]}
         >
           {cidades.length > 0 && (
             cidades.map((item) => (
@@ -207,7 +210,7 @@ export default function Oceania() {
                     >
                       <Image
                         src={item.bandeira}
-                        alt="bandeira Reino Unido"
+                        alt={item.cidade}
                         width="30px"
                       />
                     </Box>

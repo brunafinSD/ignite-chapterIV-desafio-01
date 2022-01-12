@@ -14,7 +14,7 @@ export function Header() {
       align="center"
       m="auto">
       {router.asPath !== '/' && (
-        <Link href='/' position="absolute" left={140}>
+        <Link href='/' position={["relative", "absolute"]} left={["", "140px"]} right={["90", "0"]}>
           <ChevronLeftIcon fontSize={30} />
         </Link>
       )}
